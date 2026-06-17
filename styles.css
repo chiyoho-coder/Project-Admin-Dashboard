@@ -1,0 +1,33 @@
+svg {
+    fill: rgb(229, 229, 241);
+    width: 24px;
+    height: 24px;
+}
+
+a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.profile-img,
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-colums: 1fr 3fr;
+}
+
+.sidebar-menu {
+    list-style: none;
+}
